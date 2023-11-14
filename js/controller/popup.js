@@ -39,7 +39,7 @@ export function onSubmitMarkerClick() {
     getpost(URLPostPoint,data,afterSubmitCOG);
   overlay.setPosition(undefined);
   textBlur('popup-closer');
-    insertMarker(name,long,lat,volume);
+    insertMarker(name,long,lat);
     idmarker.id=idmarker.id+1;
   console.log(name)
 }
