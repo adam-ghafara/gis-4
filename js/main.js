@@ -3,7 +3,7 @@ import { URLGeoJson } from "./template/template.js";
 import { MakeGeojsonFromAPI, responseData, AddLayerToMAP } from "./controller/controller.js";
 import {map} from './config/configpeta.js';
 import {onClosePopupClick,onDeleteMarkerClick,onSubmitMarkerClick,onMapClick,onMapPointerMove,disposePopover} from './controller/popup.js';
-import {onClick} from 'https://jscroot.github.io/element/croot.js';
+import {onClick} from './controller/element.js';
 import {getAllCoordinates} from './controller/cog.js';
 
 
